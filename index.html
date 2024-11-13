@@ -1,44 +1,160 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Movie Website</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
-    <!-- Custom CSS -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poe's Picks: Movies, TV, and more.</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro|Coiny&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Header with Navbar -->
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Movies</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+    <!-- Header Section -->
+    <header class="bg-dark text-white py-3">
+        <div class="container">
+            <nav class="navbar navbar-expand-md navbar-dark">
+                <a class="navbar-brand" href="#">PoesPicks</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#current">Whats Out</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#upcoming">Upcomming Movies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Review/Suggestions</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
     </header>
 
-    <!-- Add content here -->
+    <!-- Main Content -->
+    <main>
+        <!-- About Section -->
+        <section id="about" class="py-5 text-center">
+            <div class="container">
+                <h2 class="font-weight-bold">Movies & TV: Whats out, streaming and coming soon!</h2>
+                <p>This website is all about finding out what to watch next and find your next watch!! Hopefully you can collaberate with others and find movies and people to discuss similar interests</p>
+            </div>
+        </section>
 
-    <!-- Bootstrap JS and Popper.js -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <!-- Current Section -->
+        <section id="current" class="py-5 bg-light">
+            <div class="container">
+                <h2 class="text-center font-weight-bold mb-4">Movie Gallery</h2>
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="images/the_substance.png" class="card-img-top" alt="The Substance">
+                            <div class="card-body">
+                                <h5 class="card-title">The Substance</h5>
+                                <p class="card-text">What would you do to keep and relive your youth? Thats what Hollywood Star Crystal(Demi Moore). On top of the Hollywood fitness videos, her star was at the top for decades. But when her 50th birthday comes around, her world is forever changed. Since she is older, they fired her which left her directionless... that is until a nurse slips her a not saying it can get better with a usb that says "the Substance" on it and phone number.. thats when things start to get crazy.</p> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="images/smile2.jpg" class="card-img-top" alt="Smile 2">
+                            <div class="card-body">
+                                <h5 class="card-title">SMILE 2</h5>
+                                <p class="card-text">A sequal that has been highly anticipated, Smile 2 picks back up from the first movie. The protagonist is a evil entity, and once you see someone smile and kill themselves infront of you, the demon is passed onto that person. Somehow the demon is able to get attached to a troubled Pop Star that is starting a new redemption tour after past struggles. She doesn't know what is happening and has 7 days to get rid of the entity. Can she make it or will be left smiling..</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="images/the_penguin.jpg" class="card-img-top" alt="HBO's The Penguin">
+                            <div class="card-body">
+                                <h5 class="card-title">The Penguin</h5>
+                                <p class="card-text">Collin Ferrel picks up the cain again and stars in this villian origin story of his chracter, "Ozwald Cobblepott" aka The Penguin.
+                                    Collin's character, Ozwald Cobblepott is a man who had to fight for everything he has, from starting as a driver for the falcones to making it as somewhat of a crime boss himself. The she starts off following the effects of Matt Reeves, "The Batman" where Gotham is underwater and now is an opportunous time to try for a power grab betweeen the old state.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Upcomming Section -->
+        <section id="upcoming" class="py-5 bg-light">
+            <div class="container">
+                <h2 class="text-center font-weight-bold mb-4">Upcoming Movies</h2>
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="images/Gladiator_II.jpg" class="card-img-top" alt="Gladiator II">
+                            <div class="card-body">
+                                <h5 class="card-title">Gladiator II</h5>
+                                <p class="card-text">In what will be one of the most anticipated sequals in recent memory, Denzel Washington and Pedro Pescal will try and overthru the current regiem</p> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="images/red_one.jpg" class="card-img-top" alt="Red One">
+                            <div class="card-body">
+                                <h5 class="card-title">Red One</h5>
+                                <p class="card-text">In what will be a holiday favorite for years, Santa Claus is training with his head elf(Duane Johnson) to get ready for christmas, that is until santa is taken. Now its up to the elf, and someone from "the naughty list"(Chris Evans) to fight snowmen, get Santa back, and Save chritmas!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="images/wicked.jpg" class="card-img-top" alt="Wicked">
+                            <div class="card-body">
+                                <h5 class="card-title">Wicked</h5>
+                                <p class="card-text">From one of most classic movies of all time that was addapted for Broadway as its hottest act, Wicked finally is hitting the big screen. We see an early life at school with Glenda and the Green Witch and see dynamics that led to her becoming the Wicked Witch of the West</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-5 text-center">
+            <div class="container">
+                <h2 class="font-weight-bold">Leave a Review!</h2>
+                <p>Get in touch to discuss movies! Leave your thoughts and sugguestions!</p>
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" rows="3" placeholder="Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <p>&copy; 2024 PoesPicks</p>
+            <div>
+                <a href="#" class="text-white mx-2">Facebook</a>
+                <a href="#" class="text-white mx-2">Twitter</a>
+                <a href="#" class="text-white mx-2">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </body>
 </html>
