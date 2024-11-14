@@ -1,9 +1,0 @@
-/* Custom styles for the navbar hover and active links */
-.navbar-nav .nav-item .nav-link {
-    transition: color 0.3s ease;
-}
-
-.navbar-nav .nav-item .nav-link:hover,
-.navbar-nav .nav-item .nav-link:active {
-    color: #E0003C;
-}
