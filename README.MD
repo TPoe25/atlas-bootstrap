@@ -1,22 +1,35 @@
----
+# Poe's Picks: Movies, TV, and More
 
+A website for movie lovers to explore current and upcoming movies, trailers, and reviews! This site also includes a contact form to share your thoughts or suggestions on movies.
 
----
+## Features
 
-<h1 id="movies-and-more">Movies and more!</h1>
-<p>Brief description of what is included on website</p>
-<h1 id="sections">Sections</h1>
-<h2 id="new-movies">New Movies</h2>
-<p>Current and New movies that just premiered</p>
-<h2 id="upcoming-movies">Upcoming Movies</h2>
-<p>Movies coming soon in Theaters and Streaming</p>
-<h2 id="reviews">Reviews</h2>
-<p>Reviews about new, current and upcoming movies</p>
-<h1 id="tasks">Tasks</h1>
-<p>Tasks involved required in Bootstrap Website<br>
-Code.</p>
-<h2 id="index.html">Index.html</h2>
-<p>basic outline for website</p>
-<h2 id="styles.css">Styles.css</h2>
-<p>custom required sections in container</p>
-<link>https://tpoe25.github.io/atlas-bootstrap/</link>
+1.  **Navbar**: A navigation menu to jump between sections like "About," "What's Out," "Current Reviews," and more.
+2.  **About Section**: An introduction to the purpose of the site and what users can find here.
+3.  **Current Movies/Shows Section**: Displays movies or shows currently out, with images, titles, and descriptions.
+4.  **Current Reviews (Carousel)**: A rotating carousel showing quotes from popular movie reviewers.
+5.  **Upcoming Movies Section**: Highlights upcoming movies, each with an image and description.
+6.  **Movie Trailers Carousel**: Multi-item carousel with links to trailers for currently popular or upcoming movies.
+7.  **Contact Section**: A simple contact form for users to leave feedback or suggestions.
+8.  **Footer**: Includes links to popular movie sites like IMDb and Rotten Tomatoes.
+
+## Sections
+
+-   **Header**: Includes the navbar with links to each section.
+-   **Main Content**:
+ -   **About**: Brief intro.
+ -   **Current Movies/Shows**: A gallery with movie cards for current releases.
+    -   **Reviews**: Carousel with reviews from movie critics.
+    -   **Upcoming Movies**: Movie cards with titles and descriptions of upcoming films.
+    -   **Movie Trailers**: Carousel with links to trailers.
+    -   **Contact**: Form to leave a message.
+-   **Footer**: Quick links to other movie sites.
+
+## Programs Used
+
+-   [Bootstrap](https://getbootstrap.com/) for layout and components.
+-   [jQuery](https://jquery.com/) and Popper.js for Bootstrap's JavaScript components.
+- **HTML5** for the page structure.
+-   **Bootstrap** for responsive design and easy styling.
+-   **CSS** (`styles.css`) for custom styles and fonts.
+-   **JavaScript (jQuery and Bootstrap)** for interactive elements like the carousel and navbar toggle.
