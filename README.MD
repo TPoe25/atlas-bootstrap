@@ -33,3 +33,5 @@ A website for movie lovers to explore current and upcoming movies, trailers, and
 -   **Bootstrap** for responsive design and easy styling.
 -   **CSS** (`styles.css`) for custom styles and fonts.
 -   **JavaScript (jQuery and Bootstrap)** for interactive elements like the carousel and navbar toggle.
+
+-   [Website Link](https://tpoe25.github.io/atlas-bootstrap/)
